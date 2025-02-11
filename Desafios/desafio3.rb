@@ -17,4 +17,4 @@ potencia = numeros.map do |n|
   n ** 3
 end
 
-puts "Os números indicados elevados a terceira pontencia são #{potencia} "
+puts "Os números indicados elevados a terceira pontencia são: #{potencia} "
