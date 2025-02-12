@@ -1,15 +1,15 @@
 require "os"
 
 def meu_SO
-  if Os.windows?
+  if OS.windows?
     "Windows"
-  elsif Os.linux?
+  elsif OS.linux?
     "Linux"
-  elsif Os.mac?
+  elsif OS.mac?
     "Mac"
   else
     "Não identifiquei o Sistema Operacional"
   end
 end
 
-puts "Meu PC é #{Os.bits} bits, possui #{Os.cpu_count e o Sistema operacional é #{meu_SO{}"
+puts "Meu PC é #{OS.bits} bits, possui #{OS.cpu_count} cores e o sistema operacional é #{meu_SO}"
